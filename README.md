@@ -2,7 +2,7 @@
 
 Code này được tách ra làm thành 3 file riêng biệt, code này đã được chuyển về đầu ra có định dang .jpg 
 
-**Cách chạy : run từng file zigzag.py -> image2RLE -> RLE2image**
+**Cách chạy : run từng file zigzag.py -> image2RLE ( đợi cho đến khi tạo xong file name.txt và uncompress.jpg ) -> RLE2image**
 
 Trong đó : 
 - imange2RLE : đọc hình ảnh và biểu diễn thuật giải, áo dụng bước lượng tử hoá và mã hoá nó bằng việc sử dụng Run Length Encoding ( RLE ) 
