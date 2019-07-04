@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import math
-
+import os
 # import zigzag functions
 from zigzag import *
 
@@ -81,4 +81,8 @@ padded_img[padded_img < 0] = 0
 # compressed image is written into compressed_image.mp file
 cv2.imwrite("compressed.jpg",np.uint8(padded_img))
 
+a=os.path.getsize("11.jpg")
+print("Kích thước ảnh trước khi nén :",a,"Bytes","=",a/1024,"Kilobytes")
+b=os.path.getsize("compressed.jpg")
+print("Kích thước ảnh sau khi nén :",b,"Bytes","=",b/1024,"Kilobytes")
 # DONE!
